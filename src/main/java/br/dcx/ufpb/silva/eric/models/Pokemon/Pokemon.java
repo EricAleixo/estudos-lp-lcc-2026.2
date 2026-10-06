@@ -1,4 +1,4 @@
-package br.dcx.ufpb.silva.eric.models;
+package br.dcx.ufpb.silva.eric.models.Pokemon;
 
 public class Pokemon {
 
@@ -12,6 +12,12 @@ public class Pokemon {
         this.description = description;
         this.type = type;
         this.power = power;
+    }
+
+    public Pokemon(String name, String description, Type type){
+        this.name = name;
+        this.description = description;
+        this.type = type;
     }
 
     public String getName() {
